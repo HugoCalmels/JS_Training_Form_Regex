@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8">
+        <h1 class="my-5">Formulaire d'inscription</h1>
+
+        <form action="validate.html" method="GET" id="loginForm">
+
+          <!-- Prénom -->
+          <div class="form-group">
+            <label for="firstname">Prénom</label>
+            <input type="text" class="form-control" name="firstname" placeholder="Entre votre prénom">
+            <small></small>
+          </div>
+          <!-- Name -->
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" class="form-control" name="name" placeholder="Entre votre nom">
+            <small></small>
+          </div>
+
+          <!-- Age -->
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" class="form-control" name="age" placeholder="Entre votre age">
+            <small></small>
+          </div>
+
+
+        
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" name="email" placeholder="Entrez votre email">
+            <small></small>
+          </div>
+          <!-- Email Confirmation -->
+          <div class="form-group">
+            <label for="emailConfirmation">Email Confirmation</label>
+            <input type="text" class="form-control" name="emailConfirmation" placeholder="Re-Entrez votre email">
+            <small></small>
+          </div>
+
+          <!-- password -->
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="text" class="form-control" name="password" placeholder="Password">
+            <small></small>
+          </div>
+          <!-- password Confirmation-->
+          <div class="form-group">
+            <label for="passwordConfirmation">Password Confirmation</label>
+            <input type="text" class="form-control" name="passwordConfirmation" placeholder="Retapez votre mot de pase">
+            <small></small>
+          </div>
+          
+          <div class="form-group">
+            <button type="submit" class="btn btn-secondary btn-block">Valider</button>
+            <small></small>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="regex.js"></script>
+</body>
+</html>
